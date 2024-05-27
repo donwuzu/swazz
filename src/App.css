@@ -201,7 +201,12 @@
   background-color: #fff;
   margin: 4px 0;
   transition: 0.4s;
+ 
 }
+
+
+
+
 
 /* Hamburger Open State */
 .hamburger .bar.open:nth-child(1) {
@@ -222,11 +227,16 @@
   position: absolute;
   top: 60px;
   text-align: center;
-  margin-right: 1px;
+  right: 0;
   margin-top: 35px;
   width: 250px;
   background: linear-gradient(90deg, #1e3a8a, #2c5282);
-  padding: 20px;
+  padding: 10px;
+  border-radius: 18px;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  text-decoration-thickness: 2px;
+  
 }
 
 .nav-list.open .nav-link {
@@ -368,9 +378,10 @@
 }
 
 .name {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 800;
   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-body {
@@ -391,3 +402,53 @@
 .value {
   color: #333;
 }
+
+
+
+.vehicles-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  gap: 80px;
+  padding: 20px;
+
+
+  max-width: 80%;
+  margin: 20px auto;
+  
+  
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.vehicle-item {
+  
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+ 
+}
+
+.vehicle-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.vehicle-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.vehicle-name {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+

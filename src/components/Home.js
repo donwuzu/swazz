@@ -1,5 +1,5 @@
 import React from "react";
-
+import Vehicles from "./Vehicles";
 
 const Home = () => (
   <div className="home-container">
@@ -12,6 +12,8 @@ const Home = () => (
     <div className="banner-container">
     <img src="/b.jpg" alt="Banner" className="home-banner" />
     </div>
+
+    <Vehicles />
   </div>
 );
 

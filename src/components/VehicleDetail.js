@@ -42,8 +42,8 @@ const vehicles = [
     id: 6,
     name: 'Toyota',
     image: '/toyota.jpg',
-    specs: 'Sustainable',
-    details: 'Toyota is a vehicle manufacturer, known for its innovative technology and sustainable driving solutions. It offers a premium driving experience.',
+    specs: 'Reliable',
+    details: 'Toyota is renowned for its reliability, and commitment to sustainability. It offers a premium driving experience with a range of fuel-efficient and hybrid vehicles, making it a popular choice for eco-conscious consumers.',
   },
   // Add more vehicles as needed
 ];
@@ -63,7 +63,7 @@ const VehicleDetail = () => {
       <p className="vehicle-detail-specs"><strong>Specifications:</strong> {vehicle.specs}</p>
       <p className="vehicle-detail-description">{vehicle.details}</p>
       <p className="vehicle-detail-more-info">
-        For more information, please <a href="/contact" className="vehicle-detail-contact-link">contact us</a>.
+        For more information, please Click This Link 👉  
       </p>
     </div>
   );

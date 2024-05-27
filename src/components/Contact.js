@@ -11,10 +11,7 @@ const Contact = () => (
     <h2 class="name">Gustavo Swazz</h2>
   </div>
   <div class="card-body">
-    <div class="info-row">
-      <span class="label">Age:</span>
-      <span class="value">25</span>
-    </div>
+    
     <div class="info-row">
       <span class="label">Occupation:</span>
       <span class="value">Tech Bro</span>
