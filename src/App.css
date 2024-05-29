@@ -1,9 +1,28 @@
 /* Specific styles for your application components */
-.title, .vehicle-detail-title {
+
+.main-title{
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
+
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+ 
+
+.vehicle-detail-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hobbies-list {
@@ -409,10 +428,10 @@
   display: grid;
   grid-template-columns: repeat(1, minmax(200px, 1fr));
   gap: 80px;
-  padding: 20px;
+  
 
 
-  max-width: 80%;
+  max-width: 90%;
   margin: 20px auto;
   
   
@@ -452,3 +471,82 @@
   text-transform: uppercase;
 }
 
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+ 
+  
+}
+
+@media (max-width: 480px) {
+  
+}
+
+/* General styles for sort and filter container */
+.sort-filter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+/* Styles for labels */
+.sort-label,
+.filter-label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Styles for select elements */
+.sort-select,
+.filter-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effects for select elements */
+.sort-select:hover,
+.filter-select:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effects for select elements */
+.sort-select:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* .clear-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.clear-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.clear-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+} */

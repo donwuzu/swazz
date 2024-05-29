@@ -15,8 +15,8 @@ const Header = () => {
       
           <img src={logo} alt="Logo" className="logo-image"/>
            eShop 
-         
-      </div>
+          
+      </div> 
       <div className={`nav-list ${isOpen ? 'open' : ''}`}>
           <Link to="/" className="nav-link" onClick={() => setIsOpen(false)}>Home</Link>
           

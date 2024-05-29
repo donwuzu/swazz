@@ -1,10 +1,11 @@
 import React from "react";
 import Vehicles from "./Vehicles";
 
+
 const Home = () => (
   <div className="home-container">
     
-    <h2 className="title">  SwazzZ Auto</h2>
+    <h2 className="main-title">  SwazzZ AUTO</h2>
     
     <p className="title">Vehicle & Automotive Tech Bro's</p>
 
@@ -14,6 +15,8 @@ const Home = () => (
     </div>
 
     <Vehicles />
+
+   
   </div>
 );
 
